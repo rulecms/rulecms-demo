@@ -21,6 +21,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://wc.rulecms.com/css/rulecms.css" />
         <script src="https://wc.rulecms.com/wc/greeting/rulecms-greeting.js" async type="module" />
+        <script src="https://wc.rulecms.com/wc/content-list/rulecms-content-list.js" async type="module" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
